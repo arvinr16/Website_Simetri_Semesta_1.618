@@ -1,0 +1,64 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(45deg, #421BAE, #8F6FF1, #65B2FF, #1C84FB);
+    color: white;
+}
+
+header div nav {
+    display: flex;
+    padding: 0 50px;
+    gap: 20px
+}
+
+header div nav a {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+}
+
+header div h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.div-header0{
+    padding: 0 50px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+
+}
+
+p {
+    color: #676767;
+}
+
+section {
+    padding: 64px 128px;
+}
+
+section div h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.landing-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-item div img {
+    height: 250px;
+    width: 100%;
+}
