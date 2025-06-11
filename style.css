@@ -46,6 +46,23 @@ p {
 
 section {
     padding: 64px 103.55px;
+    position: relative;
+}
+
+section#about {
+    padding-top: 128px;
+}
+
+section::before {
+    z-index: -1;
+    content: '';
+    font-size: 72px;
+    color: #676767;
+    opacity: 0.25;
+    position: absolute;
+    font-weight: bold;
+    top: 10px;
+
 }
 
 section div h3 {
@@ -85,8 +102,6 @@ section div h3 {
                 color 0.5s ease-in-out,
                 -webkit-text-fill-color 0.5s ease-in-out,
                 box-shadow 0.3s ease;
-    -webkit-background-clip: border-box;
-    -webkit-text-fill-color: white;
 }
 
 .btn-contact:hover {
@@ -121,6 +136,75 @@ section div h3 {
     box-shadow: 0 0 15px rgb(116, 115, 215);
 }
 
+.btn-event {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 10px;
+    color: white;
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    border: 2px solid rgb(101, 74, 208);
+    border-radius: 50px;
+    cursor: pointer;
+    background-clip: border-box;
+    -webkit-text-fill-color: white;
+    transition: background 0.5s ease-in-out, 
+                border 0.5s ease-in-out,
+                color 0.5s ease-in-out,
+                -webkit-text-fill-color 0.5s ease-in-out,
+                box-shadow 0.3s ease;
+}
+
+.btn-event:hover {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid rgb(178, 161, 247);
+    box-shadow: 0 0 15px rgb(116, 115, 215);
+}
+
+.btn-event.active {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid rgb(178, 161, 247);
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.btn-event.active:hover {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid rgb(178, 161, 247);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(116, 115, 215);
+}
+
+.btn-event:not(.active) {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.btn-event:hover:not(.active) {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: unset;
+    -webkit-text-fill-color: white;
+    border: 2px solid rgb(178, 161, 247);
+    box-shadow: 0 0 15px rgb(116, 115, 215);
+}
+
+/* Tambahan kode supaya mirip 'slideToggle() */
+.about-exp-item-detail {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+}
+
+.about-exp-item-detail.show {
+    opacity: 1;
+    max-height: 200px;
+}
+
 .a-info {
     display: flex;
     align-items: center;
@@ -146,6 +230,28 @@ section div h3 {
     width: 35px;
     margin-top: 20px;
     animation: 2s upDown infinite;
+}
+
+#about {
+    margin-top: 64px;
+}
+
+#about::before {
+    content: 'Who are We?'
+}
+
+.about-exp-item {
+    margin-top: 32px;
+}
+
+.about-exp-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-exp-item-detail {
+    display: none;
 }
 
 @keyframes upDown {
