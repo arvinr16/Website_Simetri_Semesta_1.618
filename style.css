@@ -80,10 +80,11 @@ section div h3 {
     cursor: pointer;
     background-clip: border-box;
     -webkit-text-fill-color: white;
-    transition: background 0.3s ease-in-out, 
-                border 0.3s ease-in-out,
-                color 0.3s ease-in-out,
-                -webkit-text-fill-color 0.3s ease-in-out;
+    transition: background 0.5s ease-in-out, 
+                border 0.5s ease-in-out,
+                color 0.5s ease-in-out,
+                -webkit-text-fill-color 0.5s ease-in-out,
+                box-shadow 0.3s ease;
     -webkit-background-clip: border-box;
     -webkit-text-fill-color: white;
 }
@@ -91,9 +92,9 @@ section div h3 {
 .btn-contact:hover {
     background: linear-gradient(45deg, #8F6FF1, #65B2FF);
     background-clip: text;
-    box-shadow: 0 0 15px rgb(116, 115, 215);
     -webkit-text-fill-color: transparent;
     border: 2px solid rgb(178, 161, 247);
+    box-shadow: 0 0 15px rgb(116, 115, 215);
 }
 
 .btn-info {
@@ -105,17 +106,58 @@ section div h3 {
     border-radius: 50px;
     cursor: pointer;
     background: white;
-    transition: background 0.3s ease-in-out,
-                border 0.3s ease-in-out,
-                color 0.3s ease-in-out,
-                -webkit-text-fill-color 0.3s ease-in-out;
+    transition: background 0.5s ease-in-out,
+                border 0.5s ease-in-out,
+                color 0.5s ease-in-out,
+                -webkit-text-fill-color 0.5s ease-in-out,
+                box-shadow 0.3s ease;
 }
 
 .btn-info:hover {
     background: linear-gradient(45deg, #8F6FF1, #65B2FF);
     background-clip: text;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid rgb(178, 161, 247);
     box-shadow: 0 0 15px rgb(116, 115, 215);
+}
+
+.a-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.a-info div {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.a-info div:hover {
+    background: linear-gradient(45deg, #4000ff, #0080ffb6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#arrow {
+    width: 35px;
+    margin-top: 20px;
+    animation: 2s upDown infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  
+  50% {
+    transform: translateY(7px);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
 }
