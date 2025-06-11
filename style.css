@@ -31,7 +31,7 @@ header div h1 {
 }
 
 .div-header0{
-    padding: 0 50px;
+    padding: 5px 50px;
 }
 
 h1 {
@@ -61,4 +61,19 @@ section div h3 {
 .landing-item div img {
     height: 250px;
     width: 100%;
+}
+
+.btn-landing {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-landing button {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg, rgb(75, 131, 171), rgb(10, 63, 142), rgb(125, 12, 121));
 }
