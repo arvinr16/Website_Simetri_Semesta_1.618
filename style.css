@@ -151,7 +151,8 @@ section div h3 {
                 border 0.5s ease-in-out,
                 color 0.5s ease-in-out,
                 -webkit-text-fill-color 0.5s ease-in-out,
-                box-shadow 0.3s ease;
+                box-shadow 0.3s ease,
+                transform 0.3s ease;
 }
 
 .btn-event:hover {
@@ -192,17 +193,8 @@ section div h3 {
     box-shadow: 0 0 15px rgb(116, 115, 215);
 }
 
-/* Tambahan kode supaya mirip 'slideToggle() */
-.about-exp-item-detail {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.5s ease, opacity 0.3s ease;
-}
-
-.about-exp-item-detail.show {
-    opacity: 1;
-    max-height: 200px;
+.btn-event-div {
+    display: flex;
 }
 
 .a-info {
@@ -240,18 +232,40 @@ section div h3 {
     content: 'Who are We?'
 }
 
+.about-exp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Kunci supaya '<button>' lain tidak gerak */
+    margin-top: 32px;
+}
+
 .about-exp-item {
+    text-align: center;
     margin-top: 32px;
 }
 
 .about-exp-item-header {
     display: flex;
+    flex-direction: column; /* Kunci supaya '<button>' berada ditengah bawah '<h5>' */
     align-items: center;
     justify-content: center;
 }
 
+/* Tambahan kode supaya mirip 'slideToggle() */
 .about-exp-item-detail {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    margin-top: 16px;
+}
+
+.about-exp-item-header div h5 {
+    font-size: 20px;
+}
+
+.about-exp-item-header div p {
+    margin-bottom: 15px;
 }
 
 @keyframes upDown {

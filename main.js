@@ -11,7 +11,14 @@ function toggleDetail(e) {
 
     const item = target.closest(".about-exp-item");
     const detail = item.querySelector(".about-exp-item-detail");
-
+    
+    if (detail.style.maxHeight) {
+        detail.style.maxHeight = null;
+        detail.style.opacity = 0;
+    } else {
+        detail.style.maxHeight = detail.scrollHeight + "px";
+        detail.style.opacity = 1;
+    }
     detail.classList.toggle("show");
 }
 
