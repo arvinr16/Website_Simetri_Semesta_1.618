@@ -296,7 +296,7 @@ section#service {
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 32px;
-    margin-top: 72px;
+    margin-top: 32px;
 }
 
 .service-detail-item {
