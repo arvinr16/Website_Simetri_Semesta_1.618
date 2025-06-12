@@ -268,6 +268,64 @@ section div h3 {
     margin-bottom: 15px;
 }
 
+section#service {
+    padding-top: 128px;
+}
+
+#service::before {
+    content: 'Our Service'
+}
+
+#service {
+    margin-top: 64px;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-header div p {
+    font-size: 18px;
+}
+
+.service-detail {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    margin-top: 72px;
+}
+
+.service-detail-item {
+    transition: 1s;
+    box-shadow: 5px 7px 3px #c7c7c7;
+}
+
+.service-detail-item:hover {
+    transform: scale(1.05);
+}
+
+.service-detail-item img {
+    width: 100%;
+    filter: grayscale(100);
+}
+
+.service-detail-item:hover img {
+    filter: grayscale(0);
+}
+
+.service-detail-item h2 {
+    margin: 20px 0;
+    padding: 0 16px;
+}
+
+.service-detail-item p {
+    padding: 0 16px;
+    margin-bottom: 10px
+}
+
 @keyframes upDown {
   0% {
     transform: translateY(0);
