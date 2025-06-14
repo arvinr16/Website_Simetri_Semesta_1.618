@@ -346,6 +346,69 @@ section#contact {
 .contact-detail {
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
+    gap: 64px;
+}
+
+.contact-detail form h1 {
+    font-size: 32px;
+}
+
+form::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    right: 3px;
+    left: 3px;
+    background: white;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+form {
+    position: relative;
+    border-radius: 18px;
+    padding: 42px 32px;
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    z-index: 0;
+    overflow: hidden;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+
+.div-btn-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    font-weight: 500;
+    padding: 8px 20px;
+    color: white;
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    border: 2px solid rgb(101, 74, 208);
+    border-radius: 50px;
+    cursor: pointer;
+    background-clip: border-box;
+    -webkit-text-fill-color: white;
+    transition: background 0.5s ease-in-out, 
+                border 0.5s ease-in-out,
+                color 0.5s ease-in-out,
+                -webkit-text-fill-color 0.5s ease-in-out,
+                box-shadow 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(45deg, #8F6FF1, #65B2FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid rgb(178, 161, 247);
+    box-shadow: 0 0 15px rgb(116, 115, 215);   
 }
 
 @keyframes upDown {
