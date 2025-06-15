@@ -375,10 +375,24 @@ form {
     overflow: hidden;
 }
 
+.form-group {
+    font-size: 18px;
+    font-weight: 500;   
+    margin-top: 24px;
+
+}
+
 .input-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 19px;
+}
+
+.input-group input {
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
 }
 
 .div-btn-submit {
