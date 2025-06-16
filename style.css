@@ -50,6 +50,11 @@ section {
     position: relative;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section#about {
     padding-top: 128px;
 }
@@ -423,6 +428,31 @@ form {
     -webkit-text-fill-color: transparent;
     border: 2px solid rgb(178, 161, 247);
     box-shadow: 0 0 15px rgb(116, 115, 215);   
+}
+
+footer {
+    background-image: linear-gradient(45deg, #44a1fe, #5aa7ff, #1d60ab);
+    color: white;
+    padding: 16px 128px;
+}
+
+footer div h1 {
+    font-size: 38px;
+    margin-bottom: 4px;
+}
+
+footer div p {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icon a img {
+    width: 50px;
 }
 
 @keyframes upDown {
