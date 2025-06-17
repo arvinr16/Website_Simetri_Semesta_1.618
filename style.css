@@ -499,3 +499,9 @@ footer div h6 {
         height: 400px;
     }
 }
+
+@media only screen and (max-width: 830px) {
+    .location-detail iframe {
+        width: 500px;
+    }
+}
