@@ -86,6 +86,14 @@ section div h3 {
     width: 100%;
 }
 
+.div-landing-top:nth-child(4) {
+    order: 1;
+}
+
+.div-landing-btm img {
+    order: 2;
+}
+
 .btn-landing {
     margin: 20px 0px;
     display: flex;
@@ -503,5 +511,35 @@ footer div h6 {
 @media only screen and (max-width: 830px) {
     .location-detail iframe {
         width: 500px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .landing-item {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .landing-item div img {
+        height: 100%;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .service-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service-header div:nth-child(2) {
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .location-detail iframe{
+        width: 380px;
     }
 }

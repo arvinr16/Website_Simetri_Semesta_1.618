@@ -22,6 +22,20 @@ function toggleDetail(e) {
     detail.classList.toggle("show");
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    const mediaQuery = window.matchMedia("(max-width: 770px)");
+
+    if (mediaQuery.matches) {
+      // Pindahkan gambar jika lebar layar <= 768px
+      const imgContainer = document.querySelector(".div-landing-btm");
+      const image = imgContainer?.querySelector("img");
+      const target = document.querySelector(".div-landing-top .btn-landing");
+      if (image && target) {
+        target.parentNode.insertBefore(image, target); // Masukkan gambar ke atas tombol
+      }
+    }
+  });
+
 // JS jQuery
 // function toggleDetail(e) {
 //     const target = $(e.target);
