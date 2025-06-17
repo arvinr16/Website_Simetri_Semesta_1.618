@@ -329,7 +329,7 @@ section#service {
 
 .service-detail-item p {
     padding: 0 16px;
-    margin-bottom: 10px
+    margin-bottom: 32px
 }
 
 #contact {
@@ -431,7 +431,8 @@ form {
 }
 
 footer {
-    background-image: linear-gradient(45deg, #44a1fe, #5aa7ff, #1d60ab);
+    margin-top: 24px;
+    background-image: linear-gradient(45deg, #5e5e5e, #767676, #4b4b4b);
     color: white;
     padding: 16px 128px;
 }
@@ -444,6 +445,12 @@ footer div h1 {
 footer div p {
     color: white;
     margin-bottom: 16px;
+}
+
+footer div h6 {
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
 }
 
 .social-icon {
