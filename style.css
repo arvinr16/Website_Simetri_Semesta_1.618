@@ -479,3 +479,23 @@ footer div h6 {
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 910px) {
+    .contact-detail {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .service-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .location-detail iframe {
+        width: 600px;
+        height: 400px;
+    }
+}
