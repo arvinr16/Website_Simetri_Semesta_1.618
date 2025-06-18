@@ -23,18 +23,32 @@ function toggleDetail(e) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const mediaQuery = window.matchMedia("(max-width: 770px)");
+  const mediaQuery = window.matchMedia("(max-width: 770px)");
+  const imgContainer = document.querySelector(".div-landing-btm");
+  const image = imgContainer?.querySelector("img");
+  const target = document.querySelector(".div-landing-top .btn-landing");
 
-    if (mediaQuery.matches) {
-      // Pindahkan gambar jika lebar layar <= 768px
-      const imgContainer = document.querySelector(".div-landing-btm");
-      const image = imgContainer?.querySelector("img");
-      const target = document.querySelector(".div-landing-top .btn-landing");
-      if (image && target) {
-        target.parentNode.insertBefore(image, target); // Masukkan gambar ke atas tombol
+  const originalParent = image?.parentNode;
+  const originalNextSibling = image?.nextSibling;
+
+  function handleResize(e) {
+    if (!image || !target || !originalParent) return;
+
+    if (e.matches) {
+      target.parentNode.insertBefore(image, target);
+    } else {
+      if (originalNextSibling) {
+        originalParent.insertBefore(image, originalNextSibling);
+      } else {
+        originalParent.appendChild(image);
       }
     }
-  });
+  }
+
+  handleResize(mediaQuery);
+
+  mediaQuery.addEventListener("change", handleResize);
+});
 
 // JS jQuery
 // function toggleDetail(e) {
