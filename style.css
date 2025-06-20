@@ -630,3 +630,19 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 516px) {
+    section::before {
+        z-index: -1;
+        content: '';
+        font-size: 40px;
+        color: #676767;
+        opacity: 0.25;
+        position: absolute;
+        font-weight: bold;
+        top: 10px;
+    }
+
+    footer div h1 {
+        font-size: 20px;
+    }
+}
