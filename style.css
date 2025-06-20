@@ -574,6 +574,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 670px) {
+    footer div h1 {
+        font-size: 32px;
+    }
+}
+
 @media only screen and (max-width: 618px) {
     .contact-detail div h1 {
         font-size: 48px;
