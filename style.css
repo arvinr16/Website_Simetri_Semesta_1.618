@@ -574,6 +574,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 618px) {
+    .contact-detail div h1 {
+        font-size: 48px;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     header {
         display: flex;
@@ -610,5 +616,12 @@ footer div h6 {
         position: absolute;
         font-weight: bold;
         top: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .location-detail iframe {
+        width: 280px;
+        height: 300px;
     }
 }
