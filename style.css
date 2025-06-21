@@ -590,6 +590,10 @@ footer div h6 {
     footer div h1 {
         font-size: 28px;
     }
+
+    .contact-detail form h1 {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -635,6 +639,10 @@ footer div h6 {
     footer div h1 {
         font-size: 24px
     }
+
+    .contact-detail form h1 {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -642,9 +650,11 @@ footer div h6 {
         width: 280px;
         height: 300px;
     }
+}
 
+@media only screen and (max-width: 520px) {
     .contact-detail form h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -666,5 +676,16 @@ footer div h6 {
 
     footer div p {
         font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 474px) {
+    .div-landing-top h3{
+        font-size: 28px;
+    }
+
+    .div-landing-top h1 {
+        font-size: 58px;
     }
 }
