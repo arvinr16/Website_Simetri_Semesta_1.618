@@ -633,6 +633,18 @@ footer div h6 {
         font-weight: bold;
         top: 10px;
     }
+
+    section#about {
+        padding-top: 100px;
+    }
+
+    section#service {
+        padding-top: 100px;
+    }
+
+    section#contact {
+        padding-top: 100px;
+    }
 }
 
 @media only screen and (max-width: 560px) {
