@@ -689,3 +689,42 @@ footer div h6 {
         font-size: 58px;
     }
 }
+
+@media only screen and (max-width: 472px) {
+    section::before {
+        z-index: -1;
+        content: '';
+        font-size: 32px;
+        color: #676767;
+        opacity: 0.25;
+        position: absolute;
+        font-weight: bold;
+        top: 10px;
+    }
+
+    section#about {
+        padding-top: 64px
+    }
+
+    section#service {
+        padding-top: 64px;
+    }
+
+    section#contact {
+        padding-top: 64px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 442px) {
+    .div-landing-top h3 {
+        font-size: 24px;
+    }
+
+    .div-landing-top h1 {
+        font-size: 48px;
+    }
+}
