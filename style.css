@@ -682,6 +682,10 @@ footer div h6 {
         top: 10px;
     }
 
+    p {
+        font-size: 14px;
+    }
+
     footer div h1 {
         font-size: 20px;
     }
@@ -691,6 +695,12 @@ footer div h6 {
     }
 }
 
+
+@media only screen and (max-width: 598px) {
+    .service-detail-item h2 {
+        font-size: 20px;
+    }
+}
 
 @media only screen and (max-width: 474px) {
     .div-landing-top h3{
