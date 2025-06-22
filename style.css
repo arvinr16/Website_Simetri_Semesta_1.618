@@ -596,6 +596,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 598px) {
+    .service-detail-item h2 {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     header {
         display: flex;
@@ -693,12 +699,16 @@ footer div h6 {
     footer div p {
         font-size: 14px;
     }
+
+    .contact-detail div h1 {
+        font-size: 32px;
+    }
 }
 
-
-@media only screen and (max-width: 598px) {
-    .service-detail-item h2 {
-        font-size: 20px;
+@media only screen and (max-width: 492px) {
+    .location-detail iframe {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -738,6 +748,19 @@ footer div h6 {
 
     p {
         font-size: 12px;
+    }
+
+    .contact-detail div h1 {
+        font-size: 24px;
+    }
+
+    .service-detail-item h2 {
+        font-size: 18px;
+    }
+
+    .location-detail iframe {
+        width: 200px;
+        height: 200px;
     }
 }
 
