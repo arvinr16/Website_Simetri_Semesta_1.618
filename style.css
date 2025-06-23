@@ -729,30 +729,30 @@ footer div h6 {
         font-size: 12px;
         font-weight: 400;
     }
+    
+    .btn-landing button {
+        font-size: 18px;
+    }
+
+    .btn-contact {
+        padding: 10px 6px;
+    }
+
+    .btn-event-div button {
+        font-size: 16px;
+    }
+
+    .about-exp-item-header div h5 {
+        font-size: 18px;
+    }
+
+    .about-exp-item-header div p {
+        font-size: 12px;
+    }
 
     .btn-submit {
         font-weight: 500;
         padding: 6px 12px;
-        color: white;
-        background: linear-gradient(45deg, #8F6FF1, #65B2FF);
-        border: 2px solid rgb(101, 74, 208);
-        border-radius: 50px;
-        cursor: pointer;
-        background-clip: border-box;
-        -webkit-text-fill-color: white;
-        transition: background 0.5s ease-in-out, 
-                    border 0.5s ease-in-out,
-                    color 0.5s ease-in-out,
-                    -webkit-text-fill-color 0.5s ease-in-out,
-                    box-shadow 0.3s ease;
-    }
-
-    .btn-submit:hover {
-        background: linear-gradient(45deg, #8F6FF1, #65B2FF);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        border: 2px solid rgb(178, 161, 247);
-        box-shadow: 0 0 15px rgb(116, 115, 215);   
     }
 }
 
