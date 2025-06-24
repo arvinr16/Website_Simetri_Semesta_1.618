@@ -853,7 +853,11 @@ footer div h6 {
     }
     
     .btn-contact {
-        padding: 6px 4px;
+        padding: 8px 8px;
+    }
+
+    .btn-info {
+        padding: 8px 8px;
     }
 
     .btn-landing button {
@@ -884,5 +888,30 @@ footer div h6 {
 
     footer div p {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    footer div h1 {
+        font-size: 13px;
+    }
+
+    footer div p {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .div-header0 {
+        display: flex;
+        flex-direction: column;
+        gap: 0
+    }
+
+    .btn-landing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
     }
 }
