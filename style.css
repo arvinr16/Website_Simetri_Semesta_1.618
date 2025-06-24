@@ -746,10 +746,6 @@ footer div h6 {
         font-size: 14px;
     }
 
-    #arrow {
-        
-    }
-
     .about-exp-item-header div h5 {
         font-size: 18px;
     }
@@ -817,18 +813,30 @@ footer div h6 {
         font-size: 18px;
     }
 
+    #contact p {
+        font-size: 14px;
+    }
+
     .location-detail iframe {
         width: 200px;
         height: 200px;
     }
 }
 
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 452px) {
     .div-landing-top h3 {
         font-size: 24px;
     }
 
     .div-landing-top h1 {
         font-size: 48px;
+    }
+    
+    .btn-contact {
+        padding: 6px 4px;
+    }
+
+    .btn-landing button {
+        font-size: 16px;
     }
 }
