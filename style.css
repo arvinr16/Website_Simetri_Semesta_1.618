@@ -785,6 +785,11 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 472px) {
+    section {
+        padding: 64px 64px;
+        position: relative;
+    }
+    
     section::before {
         z-index: -1;
         content: '';
@@ -854,9 +859,11 @@ footer div h6 {
     .btn-landing button {
         font-size: 16px;
     }
+}
 
+@media only screen and (max-width: 430px) {
     footer div h1 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     footer div p {
@@ -864,21 +871,7 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 430px) {
-    footer div h1 {
-        font-size: 14px;
-    }
-
-    footer div p {
-        font-size: 9px;
-    }
-}
-
 @media only screen and (max-width: 428px) {
-    .btn-landing button {
-        font-size: 14px;
-    }
-
     footer div h6 {
         text-align: center;
     }
