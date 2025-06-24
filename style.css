@@ -742,6 +742,14 @@ footer div h6 {
         font-size: 16px;
     }
 
+    .a-info div {
+        font-size: 14px;
+    }
+
+    #arrow {
+        
+    }
+
     .about-exp-item-header div h5 {
         font-size: 18px;
     }
@@ -750,13 +758,20 @@ footer div h6 {
         font-size: 12px;
     }
 
+    .service-header div p {
+        font-size: 14px;
+    }
+
+    .service-header div a button {
+        padding: 6px 6px;
+        font-size: 16px
+    }
+
     .btn-submit {
         font-weight: 500;
         padding: 6px 12px;
     }
-}
 
-@media only screen and (max-width: 474px) {
     .div-landing-top h3{
         font-size: 28px;
     }
