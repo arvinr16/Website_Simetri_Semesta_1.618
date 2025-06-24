@@ -864,8 +864,32 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 430px) {
+    footer div h1 {
+        font-size: 14px;
+    }
+
+    footer div p {
+        font-size: 9px;
+    }
+}
+
 @media only screen and (max-width: 428px) {
     .btn-landing button {
         font-size: 14px;
+    }
+
+    footer div h6 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 408px) {
+    footer div h1 {
+        text-align: center;
+    }
+
+    footer div p {
+        text-align: center;
     }
 }
