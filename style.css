@@ -888,6 +888,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 416px) {
+    footer {
+        padding: 16px 80px;
+    }
+}
+
 @media only screen and (max-width: 348px) {
     .div-header0 {
         display: flex;
