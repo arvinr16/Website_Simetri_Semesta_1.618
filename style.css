@@ -894,6 +894,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 366px) {
+    section#contact {
+        padding: 64px 48px;
+    }
+}
+
 @media only screen and (max-width: 348px) {
     .div-header0 {
         display: flex;
@@ -909,9 +915,8 @@ footer div h6 {
     }
 }
 
-
 @media only screen and (max-width: 324px) {
     header div nav {
-        padding: 0 0;
+        padding: 0 0;   
     }
 }
