@@ -29,6 +29,13 @@ header div nav a {
     padding: 0;
     color: white;
     font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+header div nav a:hover {
+    color: rgb(241, 241, 241);
+    font-weight: bold; /* Huruf jadi tebal */
+    letter-spacing: 3px; /* Huruf melebar */
 }
 
 header div h1 {
