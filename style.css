@@ -908,3 +908,10 @@ footer div h6 {
         gap: 10px;
     }
 }
+
+
+@media only screen and (max-width: 324px) {
+    header div nav {
+        padding: 0 0;
+    }
+}
