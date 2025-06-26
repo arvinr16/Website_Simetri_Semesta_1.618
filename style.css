@@ -582,34 +582,6 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 670px) {
-    footer div h1 {
-        font-size: 32px;
-    }
-}
-
-@media only screen and (max-width: 618px) {
-    .contact-detail div h1 {
-        font-size: 48px;
-    }
-}
-
-@media only screen and (max-width: 604px) {
-    footer div h1 {
-        font-size: 28px;
-    }
-
-    .contact-detail form h1 {
-        font-size: 28px;
-    }
-}
-
-@media only screen and (max-width: 598px) {
-    .service-detail-item h2 {
-        font-size: 20px;
-    }
-}
-
 @media only screen and (max-width: 580px) {
     header {
         display: flex;
@@ -640,7 +612,7 @@ footer div h6 {
     section::before {
         z-index: -1;
         content: '';
-        font-size: 46px;
+        font-size: 54px;
         color: #676767;
         opacity: 0.25;
         position: absolute;
@@ -661,16 +633,6 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 560px) {
-    footer div h1 {
-        font-size: 24px
-    }
-
-    .contact-detail form h1 {
-        font-size: 24px;
-    }
-}
-
 @media only screen and (max-width: 540px) {
     .location-detail iframe {
         width: 280px;
@@ -678,38 +640,16 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 520px) {
-    .contact-detail form h1 {
-        font-size: 20px;
-    }
-}
-
 @media only screen and (max-width: 516px) {
     section::before {
         z-index: -1;
         content: '';
-        font-size: 40px;
+        font-size: 46px;
         color: #676767;
         opacity: 0.25;
         position: absolute;
         font-weight: bold;
         top: 10px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    footer div h1 {
-        font-size: 20px;
-    }
-
-    footer div p {
-        font-size: 14px;
-    }
-
-    .contact-detail div h1 {
-        font-size: 32px;
     }
 }
 
@@ -721,73 +661,21 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 482px) { /* lanjutin responsivitas bagian ini */
-    .contact-detail form h1 {
-        font-size: 16px;
-    }
-
-    .input-group label {
-        font-size: 14px;
-    }
-
-    .input-group input {
-        font-size: 12px;
-    }
-
-    .div-btn-submit button {
-        font-size: 12px;
-        font-weight: 400;
-    }
-    
-    .btn-landing button {
-        font-size: 18px;
-    }
-
     .btn-contact {
         padding: 10px 6px;
     }
 
-    .btn-event-div button {
-        font-size: 16px;
-    }
-
-    .a-info div {
-        font-size: 14px;
-    }
-
-    .about-exp-item-header div h5 {
-        font-size: 18px;
-    }
-
-    .about-exp-item-header div p {
-        font-size: 12px;
-    }
-
-    .service-header div p {
-        font-size: 14px;
+    .btn-info {
+        padding: 10px 6px;
     }
 
     .service-header div a button {
         padding: 6px 6px;
-        font-size: 16px
     }
 
     .btn-submit {
         font-weight: 500;
         padding: 6px 12px;
-    }
-
-    .div-landing-top h3{
-        font-size: 28px;
-    }
-
-    .div-landing-top h1 {
-        font-size: 58px;
-    }
-}
-
-@media only screen and (max-width: 474px) {
-    footer div h6 {
-        font-size: 8px;
     }
 }
 
@@ -800,7 +688,7 @@ footer div h6 {
     section::before {
         z-index: -1;
         content: '';
-        font-size: 32px;
+        font-size: 42px;
         color: #676767;
         opacity: 0.25;
         position: absolute;
@@ -809,66 +697,30 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 64px
+        padding-top: 84px
     }
 
     section#service {
-        padding-top: 64px;
+        padding-top: 84px;
     }
 
     section#contact {
-        padding-top: 64px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    .contact-detail div h1 {
-        font-size: 24px;
-    }
-
-    .service-detail-item h2 {
-        font-size: 18px;
-    }
-
-    #contact p {
-        font-size: 14px;
+        padding-top: 84px;
     }
 
     .location-detail iframe {
         width: 200px;
         height: 200px;
     }
-
-    footer div h1 {
-        font-size: 18px;
-    }
-
-    footer div p {
-        font-size: 12px;
-    }
 }
 
 @media only screen and (max-width: 452px) {
-    .div-landing-top h3 {
-        font-size: 24px;
-    }
-
-    .div-landing-top h1 {
-        font-size: 48px;
-    }
-    
     .btn-contact {
         padding: 8px 8px;
     }
 
     .btn-info {
         padding: 8px 8px;
-    }
-
-    .btn-landing button {
-        font-size: 16px;
     }
 
     footer {
