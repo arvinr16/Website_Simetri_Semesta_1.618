@@ -662,11 +662,11 @@ footer div h6 {
 
 @media only screen and (max-width: 482px) { /* lanjutin responsivitas bagian ini */
     .btn-contact {
-        padding: 10px 6px;
+        padding: 8px 6px;
     }
 
     .btn-info {
-        padding: 10px 6px;
+        padding: 8px 6px;
     }
 
     .service-header div a button {
@@ -715,12 +715,8 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 452px) {
-    .btn-contact {
-        padding: 8px 8px;
-    }
-
-    .btn-info {
-        padding: 8px 8px;
+    .btn-landing button {
+        font-size: 19px;
     }
 
     footer {
@@ -753,9 +749,37 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 376px) {
+    .btn-contact {
+        padding: 8px 4px;
+    }
+
+    .btn-info {
+        padding: 8px 4px;
+    }
+    
+    .btn-landing button {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 366px) {
     section#contact {
         padding: 64px 48px;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .btn-contact {
+        padding: 8px 3px;
+    }
+
+    .btn-info {
+        padding: 8px 3px;
+    }
+
+    .btn-landing button {
+        font-size: 17px;
     }
 }
 
