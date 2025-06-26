@@ -664,7 +664,7 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 482px) {
+@media only screen and (max-width: 482px) { /* lanjutin bagian ini di bagian service dan contact */
     .btn-contact {
         padding: 8px 6px;
     }
