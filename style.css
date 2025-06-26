@@ -389,6 +389,10 @@ section#contact {
     font-size: 32px;
 }
 
+.contact-detail div h1 {
+    font-size: 42px;
+}
+
 form::before {
     content: '';
     position: absolute;
