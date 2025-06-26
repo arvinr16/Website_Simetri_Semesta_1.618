@@ -664,7 +664,7 @@ footer div h6 {
     }
 }
 
-@media only screen and (max-width: 482px) { /* lanjutin responsivitas bagian ini */
+@media only screen and (max-width: 482px) {
     .btn-contact {
         padding: 8px 6px;
     }
@@ -748,6 +748,41 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 416px) {
+    section::before {
+        z-index: -1;
+        content: '';
+        font-size: 36px;
+        color: #676767;
+        opacity: 0.25;
+        position: absolute;
+        font-weight: bold;
+        top: 10px;
+    }
+
+    section#about {
+        padding-top: 76px;
+    }
+
+    section#service {
+        padding-top: 76px;
+    }
+
+    section#contact {
+        padding-top: 76px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    .service-header div p {
+        font-size: 14px;
+    }
+
+    #contact div p {
+        font-size: 14px;
+    }
+    
     footer {
         padding: 16px 80px;
     }
