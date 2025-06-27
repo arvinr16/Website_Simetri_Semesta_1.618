@@ -518,17 +518,28 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 910px) {
-    .contact-detail {
+    .service-header {
         display: flex;
         flex-direction: column;
-        gap: 64px;
+        align-items: flex-start;
     }
 
+    .service-header div:nth-child(2) {
+        margin-top: 16px;
+    }
+    
+    
     .service-detail {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 48px;
+    }
+
+    .contact-detail {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
     }
 
     .location-detail iframe {
@@ -553,23 +564,9 @@ footer div h6 {
         height: 100%;
         width: 200px;
     }
-
-    .service-header div a button {
-        font-size: 18px;
-    }
 }
 
 @media only screen and (max-width: 760px) {
-    .service-header {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .service-header div:nth-child(2) {
-        margin-top: 16px;
-    }
-
     .about-exp {
         display: flex;
         flex-direction: column;
@@ -605,7 +602,7 @@ footer div h6 {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .div-header0 {
         display: flex;
         align-items: center;
