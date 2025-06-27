@@ -12,6 +12,9 @@ header {
     color: white;
     box-shadow: 0 3px 10px 5px rgb(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    top: 0;
+    position: sticky;
+    z-index: 1;
 }
 
 header:hover {
@@ -547,6 +550,10 @@ footer div h6 {
         height: 100%;
         width: 200px;
     }
+
+    .service-header div a button {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 760px) {
@@ -582,7 +589,10 @@ footer div h6 {
     position: absolute;
     font-weight: bold;
     top: 10px;
+    }
 
+    .contact-detail div h1 {
+        font-size: 32px;
     }
 }
 
@@ -654,6 +664,10 @@ footer div h6 {
         position: absolute;
         font-weight: bold;
         top: 10px;
+    }
+
+    .contact-detail div h1 {
+        font-size: 26px;
     }
 }
 
@@ -783,6 +797,10 @@ footer div h6 {
         font-size: 14px;
     }
     
+    .contact-detail div h1 {
+        font-size: 20px;
+    }
+
     footer {
         padding: 16px 80px;
     }
