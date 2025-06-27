@@ -261,6 +261,7 @@ section div h3 {
 
 #about {
     margin-top: 64px;
+    scroll-margin-top: 86px;
 }
 
 #about::before {
@@ -305,6 +306,7 @@ section div h3 {
 
 #service {
     margin-top: 64px;
+    scroll-margin-top: 86px;
 }
 
 section#service {
@@ -367,6 +369,7 @@ section#service {
 
 #contact {
     margin-top: 64px;
+    scroll-margin-top: 86px;
 }
 
 #contact::before {
