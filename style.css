@@ -603,6 +603,18 @@ footer div h6 {
         justify-content: center;
     }
 
+    #about {
+        scroll-margin-top: 92.67px;
+    }
+
+    #service {
+        scroll-margin-top: 92.67px;
+    }
+    
+    #contact {
+        scroll-margin-top: 92.67px;
+    }
+
     .div-header0 {
         display: flex;
         align-items: center;
@@ -845,6 +857,18 @@ footer div h6 {
         display: flex;
         flex-direction: column;
         gap: 0
+    }
+
+    #about {
+        scroll-margin-top: 120.67px;
+    }
+
+    #service {
+        scroll-margin-top: 120.67px;
+    }
+
+    #contact {
+        scroll-margin-top: 120.67px;
     }
 
     .btn-landing {
