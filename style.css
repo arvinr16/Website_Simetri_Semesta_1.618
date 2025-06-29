@@ -363,10 +363,6 @@ section#service {
     margin-bottom: 32px
 }
 
-#service a {
-    padding-top: 32px;
-}
-
 #contact {
     margin-top: 64px;
     scroll-margin-top: 86px;
@@ -528,7 +524,10 @@ footer div h6 {
         margin-top: 16px;
     }
     
-    
+    .service-header div a button {
+        margin-top: 10px;
+    }
+
     .service-detail {
         display: flex;
         flex-direction: column;
@@ -592,6 +591,10 @@ footer div h6 {
     }
 
     section#about {
+        padding-top: 98px;
+    }
+
+    section#service {
         padding-top: 98px;
     }
 
@@ -684,6 +687,14 @@ footer div h6 {
 
     section#about {
         padding-top: 86px;
+    }
+
+    section#service {
+        padding-top: 86px;
+    }
+
+    .service-header div p {
+        font-size: 15px;
     }
 
     .contact-detail div h1 {
@@ -794,7 +805,7 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 76px;
+        padding-top: 68px;
     }
 
     #about p {
@@ -802,7 +813,7 @@ footer div h6 {
     }
 
     section#service {
-        padding-top: 76px;
+        padding-top: 68px;
     }
 
     .service-header div p {
@@ -810,7 +821,7 @@ footer div h6 {
     }
 
     section#contact {
-        padding-top: 76px;
+        padding-top: 68px;
     }
     
     .contact-detail div h1 {
@@ -859,11 +870,19 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 66px;
+        padding-top: 64px;
     }
 
     #about p {
         font-size: 12.5px;
+    }
+
+    section#service {
+        padding-top: 62px;
+    }
+
+    .service-header div p {
+        font-size: 13.5px;
     }
 
     .btn-contact {
