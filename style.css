@@ -591,8 +591,16 @@ footer div h6 {
     top: 10px;
     }
 
+    .service-header div p {
+        font-size: 16px;
+    }
+
     .contact-detail div h1 {
         font-size: 32px;
+    }
+
+    #contact div p {
+        font-size: 16px;
     }
 }
 
@@ -650,6 +658,10 @@ footer div h6 {
         padding-top: 100px;
     }
 
+    #about p {
+        font-size: 14px;
+    }
+
     section#service {
         padding-top: 100px;
     }
@@ -705,7 +717,7 @@ footer div h6 {
 
     .btn-submit {
         font-weight: 500;
-        padding: 6px 12px;
+        padding: 8px 16px;
     }
 }
 
@@ -793,24 +805,20 @@ footer div h6 {
         padding-top: 76px;
     }
 
-    section#contact {
-        padding-top: 76px;
-    }
-
-    #about p {
-        font-size: 14px;
-    }
-
     .service-header div p {
         font-size: 14px;
     }
 
-    #contact div p {
-        font-size: 14px;
+    section#contact {
+        padding-top: 76px;
     }
     
     .contact-detail div h1 {
         font-size: 20px;
+    }
+
+    #contact div p {
+        font-size: 14px;
     }
 
     footer {
@@ -839,6 +847,21 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 356px) {
+    section::before {
+        z-index: -1;
+        content: '';
+        font-size: 32px;
+        color: #676767;
+        opacity: 0.25;
+        position: absolute;
+        font-weight: bold;
+        top: 10px;
+    }
+
+    #about p {
+        font-size: 13px;
+    }
+
     .btn-contact {
         padding: 8px 3px;
     }
@@ -870,7 +893,9 @@ footer div h6 {
     #contact {
         scroll-margin-top: 120.67px;
     }
+}
 
+@media only screen and (max-width: 342px) {
     .btn-landing {
         display: flex;
         justify-content: center;
