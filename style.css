@@ -598,6 +598,10 @@ footer div h6 {
         padding-top: 98px;
     }
 
+    section#contact {
+        padding-top: 98px;
+    }
+
     .service-header div p {
         font-size: 16px;
     }
@@ -693,7 +697,15 @@ footer div h6 {
         padding-top: 86px;
     }
 
+    section#contact {
+        padding-top: 86px;
+    }
+
     .service-header div p {
+        font-size: 15px;
+    }
+
+    #contact div p {
         font-size: 15px;
     }
 
@@ -746,15 +758,15 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 84px
+        padding-top: 76px
     }
 
     section#service {
-        padding-top: 84px;
+        padding-top: 76px;
     }
 
     section#contact {
-        padding-top: 84px;
+        padding-top: 76px;
     }
 
     .location-detail iframe {
@@ -805,7 +817,7 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 68px;
+        padding-top: 64px;
     }
 
     #about p {
@@ -813,7 +825,7 @@ footer div h6 {
     }
 
     section#service {
-        padding-top: 68px;
+        padding-top: 64px;
     }
 
     .service-header div p {
@@ -821,9 +833,9 @@ footer div h6 {
     }
 
     section#contact {
-        padding-top: 68px;
+        padding-top: 64px;
     }
-    
+
     .contact-detail div h1 {
         font-size: 20px;
     }
@@ -870,7 +882,7 @@ footer div h6 {
     }
 
     section#about {
-        padding-top: 64px;
+        padding-top: 58px;
     }
 
     #about p {
@@ -878,11 +890,15 @@ footer div h6 {
     }
 
     section#service {
-        padding-top: 62px;
+        padding-top: 58px;
     }
 
     .service-header div p {
         font-size: 13.5px;
+    }
+
+    section#contact {
+        padding-top: 58px;
     }
 
     .btn-contact {
