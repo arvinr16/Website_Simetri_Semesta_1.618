@@ -591,6 +591,10 @@ footer div h6 {
     top: 10px;
     }
 
+    section#about {
+        padding-top: 98px;
+    }
+
     .service-header div p {
         font-size: 16px;
     }
@@ -654,20 +658,8 @@ footer div h6 {
         top: 10px;
     }
 
-    section#about {
-        padding-top: 100px;
-    }
-
     #about p {
         font-size: 14px;
-    }
-
-    section#service {
-        padding-top: 100px;
-    }
-
-    section#contact {
-        padding-top: 100px;
     }
 }
 
@@ -688,6 +680,10 @@ footer div h6 {
         position: absolute;
         font-weight: bold;
         top: 10px;
+    }
+
+    section#about {
+        padding-top: 86px;
     }
 
     .contact-detail div h1 {
@@ -801,6 +797,10 @@ footer div h6 {
         padding-top: 76px;
     }
 
+    #about p {
+        font-size: 13px;
+    }
+
     section#service {
         padding-top: 76px;
     }
@@ -858,8 +858,12 @@ footer div h6 {
         top: 10px;
     }
 
+    section#about {
+        padding-top: 66px;
+    }
+
     #about p {
-        font-size: 13px;
+        font-size: 12.5px;
     }
 
     .btn-contact {
