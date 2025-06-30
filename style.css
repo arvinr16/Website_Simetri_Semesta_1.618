@@ -615,6 +615,16 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 668px) {
+    footer div h1 {
+        text-align: center;
+    }
+
+    footer div p {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .contact-detail form h1 {
         font-size: 28px;
