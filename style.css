@@ -690,6 +690,17 @@ footer div h6 {
     }
 }
 
+
+@media only screen and (max-width: 518px) {
+    form {
+        padding: 32px 32px;
+    }
+    
+    .form-group {
+        margin-top: 32px;
+    }
+}
+
 @media only screen and (max-width: 516px) {
     section::before {
         z-index: -1;
