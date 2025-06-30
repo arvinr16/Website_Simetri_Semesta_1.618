@@ -615,6 +615,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .contact-detail form h1 {
+        font-size: 28px;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     header {
         display: flex;
@@ -667,6 +673,13 @@ footer div h6 {
 
     #about p {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .contact-detail form h1 {
+        font-size: 24px;
+        text-align: center;
     }
 }
 
