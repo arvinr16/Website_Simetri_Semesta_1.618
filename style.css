@@ -616,12 +616,21 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 668px) {
+    footer {
+        padding: 16px 92px;
+    }
+
     footer div h1 {
         text-align: center;
     }
 
     footer div p {
         text-align: center;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
     }
 }
 
