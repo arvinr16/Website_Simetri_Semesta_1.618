@@ -904,6 +904,16 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 404px) {
+    footer div h1 {
+        font-size: 27px;
+    }
+
+    footer div p {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 376px) {
     .btn-contact {
         padding: 8px 4px;
@@ -966,6 +976,20 @@ footer div h6 {
 
     .btn-landing button {
         font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    footer div h1 {
+        font-size: 25.5px;
+    }
+
+    footer div p {
+        font-size: 11.5px;
+    }
+
+    footer div h6 {
+        font-size: 10px;
     }
 }
 
