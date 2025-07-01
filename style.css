@@ -32,11 +32,13 @@ header div nav a {
     padding: 0;
     color: white;
     font-size: 18px;
-    transition: all ease 0.5s;
+    transition: all 0.5s ease;
 }
 
 header div nav a:hover {
-    color: rgb(241, 241, 241);
+    background: linear-gradient(45deg, #5d2edd, #8F6FF1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold; /* Huruf jadi tebal */
     letter-spacing: 3px; /* Huruf melebar */
 }
