@@ -916,6 +916,10 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 404px) {
+    section#service {
+        padding: 64px 52px;
+    }
+    
     footer div h1 {
         font-size: 27px;
     }
