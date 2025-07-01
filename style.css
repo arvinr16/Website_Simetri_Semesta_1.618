@@ -709,6 +709,15 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 540px) {
+    .contact-detail div h1 {
+        text-align: center;
+    }
+    
+    .location-detail {
+        display: flex;
+        justify-content: center;
+    }
+
     .location-detail iframe {
         width: 280px;
         height: 300px;
