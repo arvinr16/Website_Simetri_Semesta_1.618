@@ -640,6 +640,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 596px) {
+    footer {
+        padding: 16px 64px;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     header {
         display: flex;
@@ -706,6 +712,14 @@ footer div h6 {
     .location-detail iframe {
         width: 280px;
         height: 300px;
+    }
+
+    footer div h1 {
+        font-size: 32px;
+    }
+
+    footer div p {
+        font-size: 14px;
     }
 }
 
@@ -783,6 +797,12 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 476px) {
+    footer {
+        padding: 16px 28px;
+    }
+}
+
 @media only screen and (max-width: 472px) {
     section {
         padding: 64px 64px;
@@ -821,10 +841,6 @@ footer div h6 {
 @media only screen and (max-width: 452px) {
     .btn-landing button {
         font-size: 19px;
-    }
-
-    footer {
-        padding: 16px 110px;
     }
 
     footer div h1 {
@@ -885,10 +901,6 @@ footer div h6 {
 
     #contact div p {
         font-size: 14px;
-    }
-
-    footer {
-        padding: 16px 80px;
     }
 }
 
