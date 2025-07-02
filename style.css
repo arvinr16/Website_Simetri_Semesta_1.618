@@ -23,7 +23,7 @@ header:hover {
 
 header div nav {
     display: flex;
-    padding: 0 50px;
+    padding: 0 50px 0 0;
     gap: 20px
 }
 
@@ -36,7 +36,7 @@ header div nav a {
 }
 
 header div nav a:hover {
-    background: linear-gradient(45deg, #5d2edd, #8F6FF1);
+    background: linear-gradient(45deg, #a8a8a8, #747474);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold; /* Huruf jadi tebal */
@@ -56,6 +56,34 @@ header div h1 {
 .div-header-name {
     display: flex;
     gap: 8px;
+}
+
+.div-nav {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.div-nav h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.div-nav span {
+    margin: 0 16px 0 16px;
+}
+
+nav a:nth-child(0) {
+    background: linear-gradient(45deg, #a8a8a8, #747474);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pipe {
+    display: inline-block;
+    width: 1.5px;
+    height: 20px;
+    background-color: white;
 }
 
 h1 {
