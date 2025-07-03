@@ -669,6 +669,29 @@ footer div h6 {
     }
 }
 
+@media only screen and (max-width: 624px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div-header0 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+    }
+
+    .div-nav {
+        margin-bottom: 8px;
+    }
+
+    header div nav {
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .contact-detail form h1 {
         font-size: 28px;
@@ -682,12 +705,6 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 580px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     #about {
         scroll-margin-top: 92.67px;
     }
@@ -698,21 +715,6 @@ footer div h6 {
     
     #contact {
         scroll-margin-top: 92.67px;
-    }
-
-    .div-header0 {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-
-    }
-
-    .div-header-name {
-        display: flex;
-    }
-
-    .div-nav {
-        margin-bottom: 8px;
     }
 
     .location-detail iframe {
