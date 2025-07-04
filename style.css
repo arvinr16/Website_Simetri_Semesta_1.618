@@ -589,6 +589,10 @@ footer div h6 {
 }
 
 @media only screen and (max-width: 770px) {
+    section#landing {
+        padding: 38px 103.55px;
+    }
+    
     .landing-item {
         display: flex;
         flex-direction: column;
@@ -980,6 +984,14 @@ footer div h6 {
     
     .btn-landing button {
         font-size: 18px;
+    }
+
+    .div-nav h1 {
+        display: none;
+    }
+
+    .div-nav span {
+        display: none;
     }
 }
 
