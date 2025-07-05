@@ -875,6 +875,10 @@ footer div h6 {
         top: 10px;
     }
 
+    section#landing {
+        padding: 38px 64px;
+    }
+
     section#about {
         padding-top: 76px
     }
