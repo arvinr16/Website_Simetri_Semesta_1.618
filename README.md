@@ -1,4 +1,4 @@
-# <//=======Website Design of Simetri Semesta 1.618=======\\>
+# <//===Website Design of Simetri Semesta 1.618===\\>
 
 
 # About:
